@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
         const message = `
 💬 "${quote.content}"
 - ${quote.author}
-*QUOTES BY KG TECH*
+*QUOTES BY LEYON*
         `;
         return reply(message);
     } catch (e) {
