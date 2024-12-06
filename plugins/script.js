@@ -51,7 +51,7 @@ title: 'ʟᴇʏᴏɴ-ᴍᴅ',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://t.me/World4kMovie" ,
-thumbnailUrl: "https://files.catbox.moe/osriwc.jpg" ,
+thumbnailUrl: "https://envs.sh/Rej.png" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
