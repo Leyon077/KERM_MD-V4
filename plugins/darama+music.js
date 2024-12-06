@@ -28,7 +28,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁*KERM_MD-V4 MUSⵊC DOWNLOADⵊNG*⦁⫸
+⫷⦁*LEYON-MD MUSⵊC DOWNLOADⵊNG*⦁⫸
 
 🎵 *MUSⵊC FOUND!* 
 
@@ -40,9 +40,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *KERM_MD-V4 WHATSAPP BOT* 
+> *LEYON WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kᴇʀᴍ_ᴍᴅ-ᴠ4* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴇʏᴏɴ-ᴍᴅ* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -81,7 +81,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁*•KERM_MD-V4 VⵊDEO DOWNLOADⵊNG*⦁⫸ 
+⫷⦁*•LEYON-MD VⵊDEO DOWNLOADⵊNG*⦁⫸ 
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -93,9 +93,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *KERM_MD-V4 WHATSAPP BOT* 
+> *LEYON WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kᴇʀᴍ_ᴍᴅ-ᴠ4*
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴇʏᴏɴ-ᴍᴅ*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
