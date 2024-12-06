@@ -1,4 +1,4 @@
-/*created by Kgtech 🕵
+/*created by Leyon 🕵
 contact dev1 237656520674 ♻️
 contact dev2 237650564445 ♻️
 © Copy coder alert ⚠
@@ -35,7 +35,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬KERM_MD-V4 MOVIE SERCH🎬*
+*🎬LEYON MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -51,7 +51,7 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> POWERED BY KERM_MD-V4
+> POWERED BY LEYON
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
