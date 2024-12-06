@@ -1,7 +1,7 @@
 {
-  "name": "KERM_MD-V4",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ ᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/osriwc.jpg",
+  "name": "LEYON-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴇʏᴏɴ-ᴍᴅ",
+  "logo": "https://envs.sh/Rej.png",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://files.catbox.moe/osriwc.jpg"
+      "value": "https://envs.sh/Rej.png"
     }, 
     
     "ALIVE_MSG": {
