@@ -34,7 +34,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *KERM_MD-V4 TRANSLATION* 🌍
+🌍 *LEYON-MD TRANSLATION* 🌍
 
 🔤 *Original*: ${textToTranslate}
 
@@ -42,7 +42,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*KERM_MD-V4 CREATION*`;
+*LEYON-MD CREATION*`;
 
         return reply(translationMessage);
     } catch (e) {
