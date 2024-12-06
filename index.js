@@ -54,7 +54,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING KERM_MD-V4🧬...");
+console.log("CONNECTING LEYON-MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -82,29 +82,29 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('KERM_MD-V4 CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('LEYON-MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `*╭──────────────●●►*
-> *➺Kᴇʀᴍ_ᴍᴅ-ᴠ4 ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋɢ ᴛᴇᴄʜ✅*
+> *➺ʟᴇʏᴏɴ-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋɢ ᴛᴇᴄʜ✅*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs Kᴇʀᴍ_ᴍᴅ-ᴠ4❁*
+> *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ʟᴇʏᴏɴ-ᴍᴅ❁*
 
-*https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45*
+*https://chat.whatsapp.com/De9UilLmnJwE0AvnK20Hl8*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs Kᴇʀᴍ_ᴍᴅ-ᴠ4❁*
+> *❁ᴊᴏɪɴ ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ʟᴇʏᴏɴ-ᴍᴅ❁*
 
-*https://youtube.com/@KermHackTools-s9s*
+*https://t.me/World4kMovie*
 
-*╭⊱✫🐲 KERM_MD-V4 🐲✫⊱╮*
-*│✫➠ - 📂REPOSITORY NAME:* *KERM_MD-V4*
+*╭⊱✫🐲 LEYON-MD 🐲✫⊱╮*
+*│✫➠ - 📂REPOSITORY NAME:* *LEYON-MD*
 *│✫➠ - 📃DESCRIPTION:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✫➠ - 🛡️OWNER:* *KG TECH🇨🇲*
-*│✫➠ - 🌐URL:* *https://github.com/Kgtech-cmr/KERM_MD-V4*
+*│✫➠ - 🛡️OWNER:* *LEYON*
+*│✫➠ - 🌐URL:* *https://t.me/World4kMovie*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
 *╰──────────────●●►*`;
-conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/osriwc.jpg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://envs.sh/Rej.png` }, caption: up })
 
 }
 })
@@ -271,7 +271,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, KERM_MD-V4 STARTED ✅");
+res.send("HEY, LEYON-MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
