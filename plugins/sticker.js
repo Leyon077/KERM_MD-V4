@@ -14,11 +14,11 @@ const { cmd } = require('../command');
 const { getRandom } = require('../lib/functions');
 
 var imgmsg = '';
-if (config.LANG === 'SI') imgmsg = 'ඡායාරූපයකට mention දෙන්න!';
+if (config.LANG === 'SI') imgmsg = 'ஒரு புகைப்படத்தைக் குறிப்பிடவும்!';
 else imgmsg = 'ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ғᴏʀ sᴛɪᴄᴋᴇʀ!';
 
 var descg = '';
-if (config.LANG === 'SI') descg = 'එය ඔබගේ mention දුන් ඡායාරූපය ස්ටිකර් බවට පරිවර්තනය කරයි.';
+if (config.LANG === 'SI') descg = 'இது நீங்கள் குறிப்பிட்ட புகைப்படத்தை ஸ்டிக்கராக மாற்றும்.';
 else descg = 'ɪᴛ ᴄᴏɴᴠᴇʀᴛs ʏᴏᴜʀ ʀᴇᴘʟɪᴇᴅ ᴘʜᴏᴛᴏ ᴛᴏ sᴛɪᴄᴋᴇʀ.';
 
 cmd({
