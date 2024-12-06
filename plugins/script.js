@@ -24,16 +24,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *KG TECH🇨🇲*
+*|* *LEYON*
 
-> *KERM_MD-V4 REPO:*
-*|* *https://github.com/Kgtech-cmr/KERM_MD-V4*
+> *LEYON TELEGRAM:*
+*|* *https://t.me/World4kMovie*
 
 > *SUPPORT GROUP:*
-*|* *https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45*
+*|* *https://chat.whatsapp.com/De9UilLmnJwE0AvnK20Hl8*
 *╰──────────────●●►*
 
-> *CREATED BY KG TECH*
+> *CREATED BY LEYON*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -47,10 +47,10 @@ await conn.sendMessage(from, { text: repo ,
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'Kᴇʀᴍ_Mᴅ-V4',
+title: 'ʟᴇʏᴏɴ-ᴍᴅ',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/Kgtech-cmr/KERM_MD-V4" ,
+sourceUrl: "https://t.me/World4kMovie" ,
 thumbnailUrl: "https://files.catbox.moe/osriwc.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
